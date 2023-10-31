@@ -1,0 +1,73 @@
+input {
+  background: #fff;
+  font-size: 13px;
+  height: 33px;
+  width: 200px;
+  margin: 0;
+  padding: 0 0 0 15px;
+  border: 0;
+  border-bottom: 1px solid #999;
+}
+
+.error {
+  display: inline-block;
+  color: #cc0033;
+  display: inline-block;
+  font-size: 12px;
+  line-height: 15px;
+  margin: 5px 0 0;
+}
+
+.fullForm {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.buttons-grp {
+  text-align: center;
+}
+
+.buttons-grp button {
+  margin: 1%;
+  padding: 1%;
+  margin-right: 10%;
+}
+
+#cancel {
+  background-color: rgb(145, 142, 142);
+  color: black;
+  border: none;
+  padding: 4%;
+  transition: background-color 0.3s;
+}
+
+#cancel:hover {
+  background-color: rgb(112, 111, 111);
+  color: white;
+}
+
+#submit {
+  background-color: rgb(15, 15, 187);
+  color: white;
+  padding: 4%;
+  border: none;
+  transition: background-color 0.3s;
+}
+
+#submit:hover {
+  background-color: royalblue;
+}
+
+.header {
+  color: navy;
+  margin-bottom:5vh;
+}
+body {
+  font-family: "Times New Roman", Times, serif;
+}
+.label-css{
+  text-align: left;
+  justify-content: left;
+}
