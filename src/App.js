@@ -5,7 +5,8 @@ import NewProduct from './NewProduct';
 function App() {
   return (
    <>
-    {/* <NewShop/> */}
+    {/* <NewShop/> */} 
+  {/*due to time crunch, it was allowed to have single page */}
     <NewProduct/>
    </>
   );
